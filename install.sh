@@ -16,3 +16,5 @@ echo "export PATH=$PATH:/home/tc/jdk1.8.0_271/bin" >> ~/.bash_profile
 echo "export JAVA_HOME=/home/tc/jdk1.8.0_271/bin/java" >> ~/.bash_profile
 
 tce-load -iw libXtst
+
+source ~/.bash_profile
